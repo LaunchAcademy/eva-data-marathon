@@ -11,7 +11,7 @@ import {fileURLToPath} from 'url'
 const app = express()
 
 const pool = new pg.Pool({
-  connectionString: "postgres://arkhamsrazor:password@127.0.0.1:5432/nasa"
+  connectionString: "postgres://postgres:password@127.0.0.1:5432/nasa"
 });
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)

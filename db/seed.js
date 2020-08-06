@@ -5,7 +5,7 @@ import LineReader from "line-reader"
 
 
 const pool = new pg.Pool({
-  connectionString: "postgres://arkhamsrazor:password@127.0.0.1:5432/nasa"
+  connectionString: "postgres://postgres:password@127.0.0.1:5432/nasa"
 });
 
 const __filename = fileURLToPath(import.meta.url)
