@@ -1,0 +1,26 @@
+1,USA,Ed White,Gemini IV,06/03/1965,0:36,First U.S. EVA. Used HHMU and took  photos.  Gas flow cooling of 25ft umbilical overwhelmed by vehicle ingress work and helmet fogged.  Lost overglove.  Jettisoned thermal gloves and helmet sun visor
+3,USA,Eugene Cernan,Gemini IX-A,06/05/1966,2:07,Inadequate restraints stiff 25ft umbilical and high workloads exceeded suit vent loop cooling capacity and caused fogging.  Demo called off of tethered astronaut maneuvering unit
+4,USA,Mike Collins,Gemini X,07/19/1966,0:50,Standup EVA.  UV photos of stars.  Ended by eye irritation that impaired vision 
+5,USA,Mike Collins,Gemini X,07/20/1966,0:39,Retrieved MMOD experiment from docked Agena.  Used HHMU. Lost camera and retrieved experiment. EVA ended early by unrelated spacecraft problem
+6,USA,Richard Gordon,Gemini XI,09/13/1966,0:44,Attached tether between Agena and Gemini.  EVA ended early due to fatigue overheating & eye sweat
+7,USA,Richard Gordon,Gemini XI,09/14/1966,2:10,Standup EVA.  Took star photos. Agena tether ops
+8,USA,Buzz Aldrin,Gemini XII,11/12/1966,2:29,Standup EVA.  Science tasks.  Took star photos
+9,USA,Buzz Aldrin,Gemini XII,11/13/1966,2:06,Attached tether between Agena and Gemini.  UV photos of stars.  Waist tether and Dutch shoe eval
+10,USA,Buzz Aldrin,Gemini XII,11/14/1966,0:55,Standup EVA.  Jettisoned equipment.  Took photos
+11,USA,David Scott,Apollo 9,03/06/1969,0:47,Standup EVA from crew module.  Retrieved thermal experiment samples
+12,USA,Russ Schweickart,Apollo 9,03/06/1969,0:51,Lunar module based.  Took photos.  Evaluated foot restraint and handrails.  Retrieved thermal experiment samples.  First use of PLSS followed by recharge demo after EVA
+13,USA,Neil Armstrong       Buzz Aldrin,Apollo 11,07/20/1969,2:32,First to walk on the moon.  Some trouble getting out small hatch.  46.3 lb of geologic material collected.  EASEP seismograph and laser reflector exp deployed.  Solar wind exp deployed & retrieved.  400 ft (120m) circuit on foot.  Dust issue post EVA
+14,USA,Neil Armstrong       Buzz Aldrin,Apollo 11,07/20/1969,0:05,Jettison suit backpacks and equip to lighten ascent
+15,USA,Allen Bean               Pete Conrad,Apollo 12,11/19/1969,3:39,Collected 75.6 lb of geologic material.  ALSEP exp deployed.  6000 ft (1800m) circuit on foot
+16,USA,Allen Bean               Pete Conrad,Apollo 12,11/20/1969,3:48,Retrieved parts of Surveyor 3 spacecraft.   
+17,USA,Allen Bean               Pete Conrad,Apollo 12,11/20/1969,0:05,Jettison suit backpacks and equip to lighten ascent
+18,USA,Ed Mitchell           Alan Shepard,Apollo 14,02/05/1971,4:48,Collected 94.4 lb of geologic material.  ALSEP and laser reflector exp deployed.  Hiked up to 0.9 miles (1.5km) from lunar module.  Used MET rickshaw
+19,USA,Ed Mitchell           Alan Shepard,Apollo 14,02/06/1971,4:34,Sought but did not quite reach crater.  Golf demo
+20,USA,Ed Mitchell           Alan Shepard,Apollo 14,02/06/1971,0:05,Jettison suit backpacks and equip to lighten ascent
+21,USA,David Scott,Apollo 15,07/30/1971,0:33,Standup EVA to scout and photograph lunar surface before traverse
+238,Russia,Vladimir Lyakhov       Valeri Ryumin,Soyuz 32       Salyut 6,08/15/1979,1:23,Free damaged/jammed 10m diameter KRT-10 antenna with cable cutters forked stick and boot
+239,Russia,Anatoli Berezovsky      Valentin Lebedev,Soyuz T-5     Salyut 7,07/30/1982,2:33,Replace scientific equipment remove ISTOK-2 exposed materials/structure.  Improved Orlan D suit used.
+242,Russia,Leonid Kizim          Vladimir Solovyov,Soyuz T-10     Salyut 7,04/23/1984,4:15,Place tool boxes equipment, portable ladder.  Use pnuematic punch & cutter to get thru station skin. 
+243,Russia,Leonid Kizim          Vladimir Solovyov,Soyuz T-10     Salyut 7,04/26/1984,5:00,Install pipe/valve, purge and leak check manfold
+244,Russia,Leonid Kizim          Vladimir Solovyov,Soyuz T-10     Salyut 7,04/29/1984,2:45,Add pipe leak check cover with blanket
+245,Russia,Leonid Kizim          Vladimir Solovyov,Soyuz T-10     Salyut 7,05/04/1984,2:45,Continue leaky propellant line repair/replace
