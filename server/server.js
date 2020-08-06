@@ -38,26 +38,44 @@ app.get("/", (req,res) => {
   res.redirect("/nasa")
 })
 
-app.get("/nasa", (req,res) => {
-  let queryString = "SELECT * FROM excursions"
+app.get('/nasa', (req, res) =>{
+  let queryString = "Select * from excursions"
   pool.query(queryString)
-  .then(excursions => {
+  .then(result => {
     debugger
-    if (excursions.rows.length >0){
-    res.render('index', {excursions: excursions.rows } )}
-    else {
-      let excursions = []
-      res.render('index', {excursions,excursions})
+    if(result.rows.length >0){
+      debugger
+      res.render('excursions/index', {excursions:result.rows})
+    } else{
+      debugger
+      res.render('excursions/index', {excursions:result.rows})
     }
   })
 })
-app.get("/nasa/:id", (req,res) => {
-  let queryString = `SELECT * FROM excursions WHERE id=${req.params.id}`
-  pool.query(queryString)
-  .then(result => {
-    
-  })
+
+app.get('/nasa/crew_members/new', (req, res) => {
+  res.render('crew_members/new')
 })
+
+app.post('/nasa/crew_members', (req, res) => {
+  let name = req.body.name
+  let queryString = "INSERT INTO crew_members (member_name) VALUES ($1)"
+  pool.connect()
+  .then(client=> {
+    client.query(queryString, [name])
+    .then(result => {
+      client.release()
+      res.redirect('/nasa')
+    })
+  })
+  .catch((error) => {
+    console.log(error)
+    res.sendStatus(500)
+  })
+  res.redirect('/nasa')
+})
+
+
 
 app.listen(3000, "0.0.0.0", () => {
   console.log("Server is listening...")

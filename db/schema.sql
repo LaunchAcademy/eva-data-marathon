@@ -19,11 +19,11 @@ CREATE TABLE excursions (
 -- Create an excursion_participants table. It should relate a crew_member to an excursion. 
 -- Note: this table is a join table, and it's primary purpose is to keep track of a relationship between a crew member and an exercusion. 
 -- As such, it should contain foriegn key columns for a crew_member id and excursion id
-CREATE TABLE excursion_participants (
-  id SERIAL PRIMARY KEY,
-  crew_member_id INTEGER references crew_members(id),
-  excursion_id INTEGER references excursions(id)
-);
+-- CREATE TABLE excursion_participants (
+--   id SERIAL PRIMARY KEY,
+--   crew_member_id INTEGER references crew_members(id),
+--   excursion_id INTEGER references excursions(id)
+-- );
 
 -- Modify your seed script so that there is a unique list of names in crew_members for each crew member found in eva-data.csv. 
 
